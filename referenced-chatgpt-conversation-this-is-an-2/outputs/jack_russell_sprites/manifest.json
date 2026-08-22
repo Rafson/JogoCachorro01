@@ -1,0 +1,148 @@
+{
+  "frame_width": 64,
+  "frame_height": 64,
+  "background": "transparent",
+  "direction": "side_profile_facing_right",
+  "animations": {
+    "idle": {
+      "frame_count": 4,
+      "folder": "dog/idle",
+      "spritesheet": "spritesheets/idle.png",
+      "frames": [
+        "idle_00.png",
+        "idle_01.png",
+        "idle_02.png",
+        "idle_03.png"
+      ]
+    },
+    "walk": {
+      "frame_count": 6,
+      "folder": "dog/walk",
+      "spritesheet": "spritesheets/walk.png",
+      "frames": [
+        "walk_00.png",
+        "walk_01.png",
+        "walk_02.png",
+        "walk_03.png",
+        "walk_04.png",
+        "walk_05.png"
+      ]
+    },
+    "run": {
+      "frame_count": 8,
+      "folder": "dog/run",
+      "spritesheet": "spritesheets/run.png",
+      "frames": [
+        "run_00.png",
+        "run_01.png",
+        "run_02.png",
+        "run_03.png",
+        "run_04.png",
+        "run_05.png",
+        "run_06.png",
+        "run_07.png"
+      ]
+    },
+    "jump": {
+      "frame_count": 4,
+      "folder": "dog/jump",
+      "spritesheet": "spritesheets/jump.png",
+      "frames": [
+        "jump_00.png",
+        "jump_01.png",
+        "jump_02.png",
+        "jump_03.png"
+      ]
+    },
+    "fall": {
+      "frame_count": 3,
+      "folder": "dog/fall",
+      "spritesheet": "spritesheets/fall.png",
+      "frames": [
+        "fall_00.png",
+        "fall_01.png",
+        "fall_02.png"
+      ]
+    },
+    "land": {
+      "frame_count": 3,
+      "folder": "dog/land",
+      "spritesheet": "spritesheets/land.png",
+      "frames": [
+        "land_00.png",
+        "land_01.png",
+        "land_02.png"
+      ]
+    },
+    "sit": {
+      "frame_count": 4,
+      "folder": "dog/sit",
+      "spritesheet": "spritesheets/sit.png",
+      "frames": [
+        "sit_00.png",
+        "sit_01.png",
+        "sit_02.png",
+        "sit_03.png"
+      ]
+    },
+    "lay": {
+      "frame_count": 4,
+      "folder": "dog/lay",
+      "spritesheet": "spritesheets/lay.png",
+      "frames": [
+        "lay_00.png",
+        "lay_01.png",
+        "lay_02.png",
+        "lay_03.png"
+      ]
+    },
+    "wake_up": {
+      "frame_count": 4,
+      "folder": "dog/wake_up",
+      "spritesheet": "spritesheets/wake_up.png",
+      "frames": [
+        "wake_up_00.png",
+        "wake_up_01.png",
+        "wake_up_02.png",
+        "wake_up_03.png"
+      ]
+    },
+    "hit": {
+      "frame_count": 4,
+      "folder": "dog/hit",
+      "spritesheet": "spritesheets/hit.png",
+      "frames": [
+        "hit_00.png",
+        "hit_01.png",
+        "hit_02.png",
+        "hit_03.png"
+      ]
+    },
+    "death": {
+      "frame_count": 6,
+      "folder": "dog/death",
+      "spritesheet": "spritesheets/death.png",
+      "frames": [
+        "death_00.png",
+        "death_01.png",
+        "death_02.png",
+        "death_03.png",
+        "death_04.png",
+        "death_05.png"
+      ]
+    },
+    "victory": {
+      "frame_count": 6,
+      "folder": "dog/victory",
+      "spritesheet": "spritesheets/victory.png",
+      "frames": [
+        "victory_00.png",
+        "victory_01.png",
+        "victory_02.png",
+        "victory_03.png",
+        "victory_04.png",
+        "victory_05.png"
+      ]
+    }
+  }
+}
