@@ -10,6 +10,7 @@ Este protótipo usa Pygame e traz uma base simples para evoluir um jogo estilo M
 - buracos entre partes do chão;
 - plataformas em alturas diferentes;
 - itens coletáveis;
+- plataformas moveis que podem ser empurradas pelo Personagem 2 e cair em buracos;
 - animações iniciais para `Parado`, `Andando`, `Abaixado`, `Parado olhando para cima`, `Latindo`, `Preparando salto`, `Pulando`, `Caindo`, `Amortecendo` e `Morrendo`;
 - reinício com a tecla `R`.
 
@@ -43,14 +44,19 @@ python platformer_pygame.py
 - Mude `item_data` para reposicionar os itens.
 - Ajuste `GRAVITY`, `MOVE_SPEED` e `JUMP_SPEED` para alterar a sensação do movimento.
 - Troque `dog_character.png` para mudar o personagem.
+- Use o botao `+ Plataforma Movel` no editor visual para adicionar uma plataforma azul-escura e roxa.
 
 ## Como os sprites estão organizados
 
-Os PNGs ficam em:
+Os PNGs ficam nas pastas:
 
 ```text
-jack_russell_sprites/
+character1_sprites/
+character2_sprites/
+character3_sprites/
 ```
+
+As tres pastas possuem os mesmos frames neste momento. O jogo referencia cada pasta pelo tipo do personagem, permitindo substituir os sprites individualmente depois.
 
 Arquivos atuais:
 
